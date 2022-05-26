@@ -229,7 +229,7 @@ ul {
   margin-right: 15px;
 }
 
-/* home */
+/*==================== Home Part start here =====================*/
 .home {
   min-height: 100vh;
   display: flex;
@@ -291,7 +291,8 @@ h3.my-profession {
 .home .home-img img {
   height: 400px;
 }
-/* About part start here  */
+/*==================== Home Part end here =====================*/
+/*==================== About Part start here =====================*/
 .about .about-content {
   flex: 0 0 100%;
   max-width: 100%;
@@ -458,3 +459,59 @@ h3.my-profession {
   text-align: justify;
   color: var(--text-black-700);
 }
+/*==================== About Part end here =====================*/
+/*==================== Service Part start here =====================*/
+.service .container {
+  padding-bottom: 40px;
+}
+.service .service-item {
+  margin-bottom: 30px;
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+.service .service-item .service-item-inner {
+  background-color: var(--bg-black-100);
+  border: 1px solid var(--bg-black-50);
+  border-radius: 10px;
+  padding: 30px 15px;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+.service .service-item .service-item-inner:hover {
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+.service .service-item .service-item-inner .icon {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 30px;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+.service .service-item .service-item-inner .icon .fa {
+  font-size: 40px;
+  line-height: 60px;
+  color: var(--skin-color);
+  transition: all 0.5s ease;
+}
+.service .service-item .service-item-inner:hover .icon {
+  background: var(--skin-color);
+}
+.service .service-item .service-item-inner:hover .icon .fa {
+  font-size: 25px;
+  color: white;
+}
+.service .service-item .service-item-inner h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: var(--text-black-900);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.service .service-item .service-item-inner p {
+  font-size: 16px;
+  color: var(--text-black-700);
+  line-height: 25px;
+}
+/*==================== Service Part end here =====================*/
