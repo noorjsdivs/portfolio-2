@@ -9,6 +9,13 @@
   --body-font: "Poppins", sans-serif;
   --title-font: "Clicker Script", cursive;
 }
+body.dark {
+  --bg-black-900: #151515;
+  --bg-black-100: #222222;
+  --bg-black-50: #393939;
+  --text-black-900: #ffffff;
+  --text-black-700: #e9e9e9;
+}
 /*================== root value end here ====================*/
 /*================== Global css start here ====================*/
 
@@ -222,7 +229,7 @@ ul {
   color: var(--text-black-900);
   padding: 5px 15px;
 }
-.aside .nav li a.active {
+.aside .nav li a.navactive {
   color: var(--skin-color);
 }
 .aside .nav li a i {
